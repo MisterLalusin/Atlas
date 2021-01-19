@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:paddingHorizontal="18dp"
+    android:paddingTop="18dp">
+    <ImageView
+        android:src="@raw/book"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
+    <EditText
+        android:id="@+id/dialogAdd_UNameDTTXT"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="user name" />
+    <EditText
+        android:id="@+id/dialogAdd_BookDTTXT"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="book" />
+</LinearLayout>
